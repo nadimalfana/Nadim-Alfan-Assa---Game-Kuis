@@ -40,7 +40,7 @@ public class UI_Timer : MonoBehaviour
             _timeIsRunning = false;
             return;
         }
-        Debug.Log(_itemTimeRemaining);
+        // Debug.Log(_itemTimeRemaining);
     }
 
     public void ResetTime()

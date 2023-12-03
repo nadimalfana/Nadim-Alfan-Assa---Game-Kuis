@@ -329,7 +329,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1222,7 +1222,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1387,31 +1387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a72a1a0916d384790a8698edbeb62b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _listOfItem:
-  - questionText: Ke Arah Mana Pesawat Menghadap?
-    questionImage: {fileID: 21300000, guid: 19a940ef57fda2e49a77eab660574477, type: 3}
-    answerChoice:
-    - Atas
-    - Bawah
-    - Kanan
-    - Kiri
-    isCorrect: 01000000
-  - questionText: Ke Arah Mana Pesawat Menghadap?
-    questionImage: {fileID: 21300000, guid: 6d8f84b05c0fcb242b6af61e31504e5a, type: 3}
-    answerChoice:
-    - Atas
-    - Bawah
-    - Kanan
-    - Kiri
-    isCorrect: 00010000
-  - questionText: Ke Arah Mana Pesawat Menghadap?
-    questionImage: {fileID: 21300000, guid: 70b7b00f2a52af84193df6e464cdfb26, type: 3}
-    answerChoice:
-    - Atas
-    - Bawah
-    - Kanan
-    - Kiri
-    isCorrect: 00000001
+  _playerProgress: {fileID: 11400000, guid: 53f87a087d9b0554b82488cc7484f1fd, type: 2}
+  _listOfItem: {fileID: 11400000, guid: a7d5da60f395c5e429ce41c4bde3ae73, type: 2}
   _question: {fileID: 1489600333}
   _choices:
   - {fileID: 1683105013}
@@ -1517,7 +1494,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1717,7 +1694,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1851,7 +1828,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2307,7 +2284,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60.9
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3475,7 +3452,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.55
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3946,7 +3923,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
