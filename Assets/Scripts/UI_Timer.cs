@@ -3,8 +3,7 @@ using UnityEngine.UI;
 
 public class UI_Timer : MonoBehaviour
 {
-    [SerializeField]
-    private UI_Alert _alertPlaceholder = null;
+    public static event System.Action EventTimeUp;
     
     [SerializeField]
     private Slider _timeBar = null;
@@ -34,9 +33,7 @@ public class UI_Timer : MonoBehaviour
         _timeBar.value = _itemTimeRemaining / _itemTimeLimit;
         if (_itemTimeRemaining <= 0f)
         {
-            _alertPlaceholder.alertText = "Waktu Sudah Habis";
-            _alertPlaceholder.gameObject.SetActive(true);
-            //Debug.Log("Waktu Habis");
+            EventTimeUp?.Invoke();
             _timeIsRunning = false;
             return;
         }
